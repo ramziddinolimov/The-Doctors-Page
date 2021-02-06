@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-doctor-image{
+    width: 180px;
+}
+
+.navbar-nav{
+    
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-box{
+    justify-content: flex-end;
+}
+
+.nav-box-image{
+    width: 800px;
+    align-items: flex-end;
+}
