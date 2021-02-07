@@ -15,29 +15,93 @@ body{
     margin: 0 auto;
 }
 
+a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(47, 50, 202);
+}
+
+
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    padding-top: 70px;
+    
+}
+
+.navbar-nav{
+    width: 700px;
 }
 
 .navbar-doctor-image{
     width: 180px;
-}
-
-.navbar-nav{
-    
+    margin-right: 100px;
 }
 
 .nav-list{
     display: flex;
+    
 }
 
 .nav-box{
-    justify-content: flex-end;
+    width: 50%;
+}
+
+.nav-text{
+    width: 50%;
+}
+
+.nav-item{
+    margin-right: 40px;
+}
+
+.nav-link2{
+    background-color: rgb(0, 81, 255);
+    color: #ffffff;
+    padding: 10px 30px;
+    
+}
+
+.box-text-section{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
 }
 
 .nav-box-image{
     width: 800px;
-    align-items: flex-end;
+    
 }
+
+.nav-text{
+    margin-top: 350px;
+}
+
+.nav-text-title{
+    font-size: 70px;
+    color: rgb(21, 50, 102);
+    
+}
+
+.nav-text-subtext{
+    margin-top: 50px;
+    font-size: 20px;
+    width: 440px;
+}
+
+.nav-text-input{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.nav-book-link{
+    background-color: rgb(0, 81, 255);
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
