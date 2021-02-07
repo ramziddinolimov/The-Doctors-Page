@@ -105,3 +105,61 @@ a {
     padding: 10px 30px;
 }
 
+
+
+
+
+
+
+
+.children>.container{
+    display: flex;
+    margin-top: 180px;
+    
+}
+
+.children-box{
+    width: 50%;
+}
+
+.children-box-image{
+    width: 600px;
+}
+
+.children-text{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.children-title{
+    font-size: 50px;
+    color: rgb(21, 50, 102);
+    margin-top: 100px;
+}
+
+.children-subtext{
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.children-link{
+    background-color: rgb(0, 81, 255);
+    color: #ffffff;
+    padding: 10px 30px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.screen>.container{
+    display: flex;
+    margin-top: 180px;
+    
+}
